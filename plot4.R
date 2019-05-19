@@ -39,7 +39,7 @@ with(pwrcondata,{
   ## Adding legend at top-right corner
   legend("topright",legend=c('Sub Metering 1', 'Sub Metering 2', 'Sub Metering 3'),col=c('black', 'red', 'blue'), lty=c(1, 1, 1),cex=0.8,bty="n")
   plot(posix,Voltage,xlab="datetime",ylab="Voltage",type="l")
-  plot(posix,Global_Reactive_Power,xlab="datetime",ylab="Gloal Reactive Power",type="l",lwd=0.3)
+  plot(posix,Global_Reactive_Power,xlab="datetime",ylab="Global Reactive Power",type="l",lwd=0.3)
 })
 
 
