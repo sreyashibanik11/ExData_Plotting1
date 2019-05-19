@@ -1,3 +1,4 @@
+##*********************************************************************************************##
 ## Loading dataset
 pwrcondata<-read.table("household_power_consumption.txt",sep=";",stringsAsFactors = FALSE)
 
